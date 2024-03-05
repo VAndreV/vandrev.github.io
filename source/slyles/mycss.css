@@ -83,5 +83,18 @@ footer {
     margin: auto auto;
  }
 
+ .card-body {
+    display: flex;
+    flex-direction: column;
+    height: auto; /* изменение высоты на auto */
+    padding-bottom: 30px; /* примерное значение высоты кнопки + немного отступа */
+}
+
+.card-body .btn {
+    margin-top: auto;
+    background-color: blueviolet;
+}
+
+
 
 
