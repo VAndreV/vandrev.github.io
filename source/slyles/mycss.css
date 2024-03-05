@@ -37,13 +37,13 @@ body {
 
 .card {
     background-color: rgba(58, 23, 110, 0.608);
-    color: aquamarine;
+    color: white;
     height: 100%
 }
 
 .card a {
     text-decoration: none;
-    color: aquamarine;
+    color: white;
 }
 
 .slide-text, {
