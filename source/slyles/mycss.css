@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+
+.bg-khaki {
+    background-color: rgba(58, 23, 110, 0.608);
+}
+
+body {
+    font-family: Michroma, serif;
+    background-color: rgb(233, 223, 208);
+}
+
+
+.nav-link {
+    color: rgb(94, 95, 95);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(207, 211, 210);
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.navbar-toggler {
+    background-color: rgba(58, 23, 110, 0.608);
+
+}
+
+.sidebar {
+    color: rgb(241, 241, 241);
+    background-color: rgba(58, 23, 110, 0.608);
+    
+
+}
+
+.card {
+    background-color: rgba(58, 23, 110, 0.608);
+    color: aquamarine;
+}
+
+.card a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.slide-text, {
+    color: rgb(89, 88, 88);
+    margin: auto auto;
+}
+
+footer {
+    background-color: rgba(57, 23, 107, 0.833);
+    
+    
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+.video-text h1 {
+    font-family: Arial, sans-serif; /* Изменить шрифт */
+    font-size: 35px; /* Изменить размер шрифта */
+    color: #ddd2e6; /* Изменить цвет текста */
+    text-align: center; /* Изменить выравнивание текста */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Добавить тень текста */
+    /* Другие стили по вашему усмотрению */
+}
+
+.footer-text {
+    color: rgb(214, 212, 212);
+    margin: auto auto;
+ }
+
+
+
