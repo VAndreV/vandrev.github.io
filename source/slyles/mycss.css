@@ -38,6 +38,7 @@ body {
 .card {
     background-color: rgba(58, 23, 110, 0.608);
     color: aquamarine;
+    height: 100%
 }
 
 .card a {
