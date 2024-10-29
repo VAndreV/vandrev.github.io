@@ -1,181 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  <link rel="stylesheet" href="source/slyles/mycss.css">
-  <link rel="stylesheet" href="source/slyles/bgvideo.css">
-
-  <link rel="apple-touch-icon" sizes="180x180" href="source/icons/iB/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="source/icons/iB/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="source/icons/iB/favicon-16x16.png">
-  <link rel="manifest" href="source/icons/iB/site.webmanifest">
-  <title>i-Bosh company</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проект Житлових Комплексів</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 2px solid #000;
+        }
+        .logo {
+            width: 50px;
+            height: 50px;
+            background-color: #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #000;
+        }
+        .main-content {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .complex {
+            width: 25%;
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+        .complex h3 {
+            margin-top: 0;
+        }
+        .download-button {
+            display: inline-block;
+            padding: 10px;
+            margin-top: 10px;
+            color: #fff;
+            background-color: #000;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .instructions {
+            margin-top: 20px;
+            border-top: 2px solid #000;
+            padding-top: 10px;
+        }
+        .instructions h3 {
+            text-align: center;
+        }
+        .instruction-list {
+            list-style-type: decimal;
+            padding-left: 20px;
+        }
+    </style>
 </head>
-
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg bg-khaki">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/"><img src="source/files/logo.jpg.jpg" alt="..."></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Главная</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pricing.html">Услуги</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+<header>
+    <div class="logo">Лого</div>
+    <nav>
+        <a href="#">Про нас</a>
+        <a href="#">Послуги</a>
+        <a href="#">Контактна інформація</a>
     </nav>
-  </header>
+</header>
 
-
-
-  <section>
-    <div class="bgvideo">
-      <video src="source/files/1084762993-preview.mp4" type="video/mp4" autoplay muted loop></video>
-      <div class="effect"></div>
-      <div class="video-text">
-        <h1>КЛЮЧ К ОНЛАЙН УСПЕХУ</h1>
-      </div>
+<section class="main-content">
+    <div class="complex">
+        <h3>Сакура</h3>
+        <p>Етап 1</p>
+        <p>Єдності 2, 2а, 4а, 5, 6, 6а</p>
+        <a href="#" class="download-button">Завантажити договір</a>
     </div>
-
-
-
-    <div class="container-fluid mt-4">
-      <div class="row">
-        <div class="col-lg-1">
-        </div>
-
-        <div class="col-lg-8 col-md-12">
-          <div class="row">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                  aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                  aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                  aria-label="Slide 3"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="d-block w-100">
-                    <div class="row">
-                      <div class="col-lg-6 col-md-6">
-                        <img src="source/images/6.jpg" class="w-100" alt="">
-                      </div>
-                      <div class="col-lg-6 col-md-6 slide-text">
-                        <p>Социальные медиа - сила, объединяющая миллионы людей и формирующая общественное мнение. Они
-                          способствуют социальным движениям, повышают прозрачность в правительственных структурах и
-                          поддерживают глобальное сотрудничество. СММ играют ключевую роль в культурных тенденциях и
-                          ответственности бизнеса. Важность СММ для мира неоценима, они стимулируют прогресс и
-                          позитивные изменения в обществе.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="d-block w-100">
-                    <div class="row">
-                      <div class="col-lg-6 col-md-6">
-                        <img src="source/images/5.jpg" class="w-100" alt="">
-                      </div>
-                      <div class="col-lg-6 col-md-6 slide-text">
-                        <p>Копирайтеры - ключевые фигуры в сфере коммуникаций. Их умение создавать убедительный контент
-                          формирует образы брендов, влияет на решения потребителей и продвигает идеи. Они не просто
-                          пишут тексты, они строят мосты между компаниями и их аудиторией, оставляя след в сердцах и
-                          умах. Их важность в мире бизнеса и маркетинга неоценима.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="d-block w-100">
-                    <div class="row">
-                      <div class="col-lg-6 col-md-6">
-                        <img src="source/images/4.jpg" class="w-100" alt="">
-                      </div>
-                      <div class="col-lg-6 col-md-6 slide-text">
-                        <p>Работать в СММ можно даже с телефона. Это не просто удобно, но и эффективно. Благодаря
-                          мобильным приложениям, вы можете управлять контентом, отслеживать аналитику и
-                          взаимодействовать с аудиторией в любое время и в любом месте. Главное - быть в курсе трендов и
-                          поддерживать активность, создавая качественный контент.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-
-        </div>
-        <div class="col-lg-3 col-md-12">
-          <div class="row px-2">
-            <div class="col-lg-12 sidebar my-4">
-              <p>Открой для себя мощь СММ - социального медиа маркетинга. Это ключ к созданию сообщества, привлечению
-                внимания к бренду и раскрытию потенциала. Используй его, чтобы делиться своими идеями и вдохновлять
-                миллионы по всему миру!<a href="#"></a></p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-
+    <div class="complex">
+        <h3>Чорновола</h3>
+        <p>Етап 2</p>
+        <p>Вул. Чорновола 50, 51, пров. Весняний</p>
+        <a href="#" class="download-button">Завантажити договір</a>
     </div>
-  </section>
-
-
-
-
-
-
-
-  <footer class="mt-4">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-4 col-md-12 footer-text text-center">
-          <p>Все права под защитой енотов</p>
-        </div>
-        <div class="col-lg-4 col-md-12 footer-text text-center">
-          <p>Контакты<br>Работа<br>Наша команда енотов</p>
-        </div>
-        <div class="col-lg-4 col-md-12 media-links">
-          <img style="width: 40px; margin-inline: 1em;" src="source/icons/inst.png" alt="Instagram">
-          <img style="width: 40px; margin-inline: 1em;" src="source/icons/gmail.png" alt="Gmail почта">
-          <img style="width: 40px; margin-inline: 1em;" src="source/icons/tg.png" alt="Telegram">
-          <img style="width: 40px; margin-inline: 1em;" src="source/icons/fb.png" alt="Facebook">
-        </div>
-
-      </div>
+    <div class="complex">
+        <h3>Добре місто</h3>
+        <p>Етап 3</p>
+        <p>М. Приймаченко, Молодіжна, Перша травнева</p>
+        <a href="#" class="download-button">Завантажити договір</a>
     </div>
-  </footer>
+    <div class="complex">
+        <h3>Добре місто 2</h3>
+        <p>Винників 16, 18</p>
+        <a href="#" class="download-button">Завантажити договір</a>
+    </div>
+</section>
 
+<section class="instructions">
+    <h3>Інструкція</h3>
+    <ul class="instruction-list">
+        <li>Опис</li>
+        <li>Опис</li>
+        <li>Опис</li>
+        <li>Опис</li>
+        <li>Опис</li>
+        <li>Опис</li>
+    </ul>
+</section>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"></script>
 </body>
-
 </html>
