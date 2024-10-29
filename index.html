@@ -22,6 +22,7 @@
             padding: 10px;
             border-bottom: 2px solid #000;
             background-color: #fff;
+            box-sizing: border-box;
         }
         .logo {
             width: 60px;
@@ -107,6 +108,48 @@
             font-size: 1em;
             color: #555;
         }
+
+        /* Адаптивные стили */
+        @media (max-width: 768px) {
+            .complex {
+                width: 45%;
+                margin: 5px;
+            }
+            nav a {
+                margin: 0 10px;
+                font-size: 0.9em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                flex-direction: column;
+            }
+            .logo {
+                width: 50px;
+                height: 50px;
+                margin-bottom: 10px;
+            }
+            nav a {
+                display: block;
+                margin: 5px 0;
+                font-size: 0.9em;
+            }
+            .main-content {
+                flex-direction: column;
+                align-items: center;
+            }
+            .complex {
+                width: 90%;
+            }
+            .download-button {
+                padding: 8px 10px;
+                font-size: 0.9em;
+            }
+            .instructions, footer {
+                width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
@@ -123,13 +166,13 @@
 <section class="main-content">
     <div class="complex">
         <h3>Сакура</h3>
-        <img src="images/Screenshot_5.jpg" alt="Сакура">
+        <img src="images/sakura.jpg" alt="Сакура">
         <p>Єдності 2, 2а, 4а, 5, 6, 6а</p>
         <a href="files/sakura_dogovir.pdf" class="download-button" download>Завантажити договір</a>
     </div>
     <div class="complex">
         <h3>Чорновола</h3>
-        <img src="images/Scr5" alt="Чорновола">
+        <img src="images/chornovola.jpg" alt="Чорновола">
         <p>Вул. Чорновола 50, 51, пров. Весняний</p>
         <a href="files/chornovola_dogovir.pdf" class="download-button" download>Завантажити договір</a>
     </div>
