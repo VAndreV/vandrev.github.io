@@ -5,8 +5,11 @@ body {
     align-items: center;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background: url('source/files/фон.jpg') no-repeat center center fixed; /* Путь к изображению */
+    background-size: cover;
+    background-color: rgba(245, 245, 245, 0.7); /* Полупрозрачный белый слой */
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -142,15 +145,4 @@ footer {
     .instructions, footer {
         width: 100%;
     }
-}
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    background: url('source/files/фон.jpg') no-repeat center center fixed; /* Путь к изображению */
-    background-size: cover;
-    background-color: rgba(245, 245, 245, 0.7); /* Цвет с прозрачностью для затемнения */
 }
